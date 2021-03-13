@@ -1,0 +1,25 @@
+{
+  "name": "it-s-burger-time",
+  "version": "1.0.0",
+  "description": "we all love a good burger",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michaelswigart/It-s-burger-time.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michaelswigart/It-s-burger-time/issues"
+  },
+  "homepage": "https://github.com/Michaelswigart/It-s-burger-time#readme"
+}

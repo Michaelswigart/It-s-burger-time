@@ -28,4 +28,3 @@ connection.connect(function (err) {
 
 // Export connection for our ORM to use.
 module.exports = connection;
-© 2021 GitHub, Inc.
