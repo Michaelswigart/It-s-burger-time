@@ -1,5 +1,5 @@
 const path = require('path');
-
+const orm = require('../config/orm');
 var burger = {
     all:function(cb){
         orm.selectAll("burgers", res => {

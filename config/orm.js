@@ -34,6 +34,10 @@ var orm = {
          }
      })
  },
+ // selectALL use table name write a qrry on the table
+ // wright the update
+ // wright the querSelect
+ 
  querySelect:function(){},
  selectAll:function(){},
  updateOne:function(){}

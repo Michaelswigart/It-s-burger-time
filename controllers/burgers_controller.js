@@ -9,8 +9,9 @@ router.get("/", (req, res) => {
       var handleBarsObj = {
           burgers: data 
       }
-      response.render("index", handleBarsObj)
+      res.render("index", handleBarsObj)
   });
+  // res.end('testing')
 });
 
 router.post("/api/burger", (req, res) => {
