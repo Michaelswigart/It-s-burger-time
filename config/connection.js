@@ -1,35 +1,24 @@
-const mysql = require('mysql');
+// Set up MySQL connection
+var mysql = require("mysql");
+var connection;
 
-// We placed the connections in this source object
-const source = {
-  // localhost
-  localhost: {
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: '12345',
-    database: 'burgers',
-  },
-
-  // JawsDB
-  jawsDB: {
-    host: '<host name>',
-    port: 3306,
-    user: '<name of user>',
-    password: '<password>',
-    database: '<name of database>',
-  },
-};
-
-// We use source.[name of connection] to hook into mysql
-const connection = mysql.createConnection(source.localhost);
-
-connection.connect((err) => {
-  if (err) {
-    console.error(`error connecting: ${err.stack}`);
-    return;
-  }
-  console.log(`connected as id ${connection.threadId}`);
+// else connect to local database
+connection = mysql.createConnection({
+host: "localhost",
+port: 3306,
+user: "root",
+password: "12345",
+database: "burgers"
 });
 
+// Make connection
+connection.connect(function (err) {
+  if (err) {
+    console.error("\nError connecting: " + err.stack + "\n");
+    return;
+  }
+  console.log("\nConnected as id " + connection.threadId + "\n");
+});
+
+// Export connection for our ORM to use.
 module.exports = connection;
