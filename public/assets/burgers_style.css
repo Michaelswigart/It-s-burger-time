@@ -1,11 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(251, 255, 22);
+    background-color: rgb(218, 214, 0); 
+    
 }
 
 .title {
-    font-family: 'Sigmar One', cursive;
-    font-size: 60px;
+    font-family: 'Sigmar One';
+    font-size: 55px;
     color: #000000;
     padding: 20px;
 }
@@ -20,14 +21,14 @@ body {
     margin: 10px;
     height: 300px;
     overflow: auto;
-    background-color: #62EDD6;
+    background-color: #b11b1b;
 }
 
 #list-burgers {
     margin: 10px;
     height: 300px;
     overflow: auto;
-    background-color: #FE65B7;
+    background-color: #058b41;
 }
 
 .container {
@@ -38,14 +39,14 @@ body {
     overflow: hidden;
     font-size: 20px;
     margin: 8px;
-    border: 2px solid #62EDD6;
+    border: 2px solid #000000;
     padding: 3px;
 }
 
 .devoured-burgers {
     font-size: 20px;
     margin: 8px;
-    border: 2px solid #FE65B7;
+    border: 2px solid #740000;
     padding: 3px;
 }
 
@@ -75,7 +76,7 @@ body {
     height: 50px;
     align-content: center;
     color: #000000;
-    background-color: #FE65B7;   
+    background-color: #f0eeee;   
 }
 
 #submit-burger {
@@ -84,13 +85,16 @@ body {
     margin: 0 auto; 
     width: 200px;
     padding: 10px;
-    color: #000000;
-    background-color: #62EDD6;
+    color: #140e0e;
+    background-color: #e1ff59;
 }
 
 #submit-burger:hover {
-    border: 3px solid #62EDD6;
+    border: 3px solid #03b8ff;
     color: #000000;
-    background-color:#ffffff;
+    background-color:#1b6be4;
 }
 
+#burger-gif {
+    border-radius: 50%;
+}
