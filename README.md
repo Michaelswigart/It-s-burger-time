@@ -2,20 +2,20 @@
      We all love a good burger
     
   ##  Description
-    N/A
+    This burger web site will let you share your favorite burgers with your friends.
   ## Table of Contents
   * [Description](#description)
   * [Usage](#usage)
   * [License](#license)
   * [Contribution](#contribution)
   * [Usage](#usage)
-  * [Tests](#tests)
+  * [Image](#Image)
   * [Questions](#questions)
   ## Installation
   To install dependencies, run the below command :
-    N/A
+    nodemon server.js
   ## Usage
-     nodemon server.js
+     A fun way to talk about your favorite burgers.
   ## License
     This repository is covered under the license '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)' 
     Refer [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) for more detailed info 
@@ -23,9 +23,9 @@
     
   
   ## Contribution
-     
-  ## Tests
-     
+     Michael, Makenzie.
+  ## Image
+     ![women-eating-burger](https://user-images.githubusercontent.com/73671076/111410441-c56ed400-86a6-11eb-8ce3-91034caf273f.png)
   ## Questions
    If you have any questions reach me @ 
    Email : [sherlockholmes.swigart92@gmail.com](mailto:sherlockholmes.swigart92@gmail.com)
